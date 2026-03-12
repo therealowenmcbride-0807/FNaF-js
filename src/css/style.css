@@ -55,10 +55,11 @@ span[data-color="black"] {
 
 button {
     display: block;
-    margin: 4px;
-    height: 64px;
-    padding: 0;
+    margin: 8px;
+    padding: 4px;
     border: 4px solid white;
+    background-color: black;
+    color: white;
     cursor: pointer;
 }
 
