@@ -12,12 +12,15 @@
         <div id="power">Power: 100%</div>
         <div id="usage"><span data-color="green">█</span> <span data-color="black">█</span> <span data-color="black">█</span> <span data-color="black">█</span></div>
     </div>
-    <div class="container">
-        <div id="view">
-            You are in the office.<br>
-            <button id="left-door-btn">Check Left Door</button>
-            <button id="right-door-btn">Check Right Door</button>
-            <button id="camera-btn">Check Cameras</button>
+    <div class="container" id="view">
+        <span id="you-are-in">You are in the office.<br></span><br>
+        <div class="buttons">
+            <button id="left-door-btn" onclick="checkLeftDoor()">Check Left Door</button>
+            <button id="right-door-btn" onclick="checkRightDoor()">Check Right Door</button>
+            <button id="camera-btn" onclick="checkCameras()">Check Cameras</button>
+            <button id="shut-left-door-btn" onclick="shutLeftDoor()">Shut Left Door</button>
+            <button id="shut-right-door-btn" onclick="shutRightDoor()">Shut Right Door</button>
+            <button id="go-back-btn" onclick="goBack()">Go Back</button>
         </div>
     </div>
 </body>
